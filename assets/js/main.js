@@ -29,4 +29,4 @@ showMenu('nav-toggle','nav-menu')
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/ 
 
 
-/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/ const showMenu = (toggleId, navId) =>{
+/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
