@@ -161,6 +161,13 @@ img{
     align-items: center;
 }
 
+/*@ At-rules @ */
+/* 
+https://es.stackoverflow.com/questions/17860/qu%C3%A9-significa-la-arroba-en-css/17861#:~:text=Reglas%20de%20%40&text=Son%20declaraciones%20CSS%20que%20encapsulan,una%20tiene%20su%20propia%20sintaxis.&text=%40charset%20Define%20el%20conjunto%20de%20caracteres%20usado%20en%20el%20CSS.
+https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+https://developer.mozilla.org/es/docs/Web/CSS/@media
+*/
+
 @media screen and (max-width: 968px){
     .nav__menu{
         position: fixed;
@@ -371,8 +378,34 @@ img{
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
+/* GRID-TEMPLATE-COLUMNS */
+/*
+https://developer.mozilla.org/es/docs/Web/CSS/grid-template-columns
+https://developer.mozilla.org/es/docs/Web/CSS/repeat()
+*/
 
+.skills__content{
+    grid-template-columns: repeat(2, 1fr);
+}
 
+.skills__content{
+    gap: 0;
+}
+
+.skills__name{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-3);
+}
+
+.skills__circle{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: .75rem;
+}
 /*========== CERTIFICATES ==========*/
 
 
