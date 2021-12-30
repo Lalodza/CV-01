@@ -40,7 +40,7 @@
     --mb-2: 1rem;
     --mb-3: 1.5rem;
 
-    /* index */
+    /* index z*/
 
     --z-tooltip: 10;
     --z-fixed: 100;
@@ -339,7 +339,7 @@ https://developer.mozilla.org/es/docs/Web/CSS/@media
     display: flex;
 }
 
-.eduaction__time,
+.education__time,
 .experience__time{
     padding-right: 1rem;
 }
