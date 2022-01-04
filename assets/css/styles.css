@@ -477,10 +477,12 @@ https://developer.mozilla.org/es/docs/Web/CSS/repeat()
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgba(0 0 0 / 30%);
     text-align: center;
+    padding-top: .1px;
 }
 
 .form__group{
     position: relative;
+    margin-top: var(--mb-2);
 }
 
 .form__input{
@@ -512,6 +514,7 @@ https://developer.mozilla.org/es/docs/Web/CSS/repeat()
 }
 
 .form__submit{
+    background-color: var(--container-color);
     display: inline-block;
     font-family: var(--body-font);
     border: 2px solid var(--text-color);
