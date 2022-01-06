@@ -85,7 +85,3 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-/*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/ 
-
-
-/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/

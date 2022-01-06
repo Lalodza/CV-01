@@ -91,13 +91,7 @@ body.dark-theme{
     color: var(--title-color);
 }
 
-/*========== Font size variables to scale cv ==========*/
 
-
-/*========== Generate PDF button ==========*/
-
-
-/*========== Classes modified to reduce size and print on A4 sheet ==========*/
 
 body{
     margin: 0 0 var(--header-height) 0;
@@ -638,7 +632,7 @@ https://developer.mozilla.org/es/docs/Web/CSS/repeat()
     
     /* boton de descarga */
     .home__button-movil{
-        display: none;
+        /* display: none; */
     }
 
     .languages__content{
